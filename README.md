@@ -20,12 +20,22 @@ function add(n1: number, n2: number, showResult: boolean, phrase: string){
     }
 }
 ```
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+# NestJS
+
+## Installation 
+- Run the following npm command
+```bash
+npm i -g @nestjs/cli
+```
 
 
 
 
 
-
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
 # Nx.dev
 
 ## Installation 
@@ -46,3 +56,15 @@ nx generate @nrwl/node:lib number-utils --publishable --importPath=@stores/numbe
 - De esta manera podremos crear librerias que luego van a poder ser publicadas en npm si queremos. 
 - Tambien nos da la facilidad de importar dentro de nuestras apps dichas libs con el path del importPath (en este caso "@stores/number-utils")
 
+
+
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+DynamoDB
+
+
+## Installing
+```bash
+npm install --save @aws-sdk/client-dynamodb @aws-sdk/lib-dynamodb
+```
